@@ -67,18 +67,11 @@
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
-
-        </plugins>
-    </build>
-    <build>
-      <plugins>
-          <plugin>
+            <plugin>
                <groupId>org.sonarsource.scanner.maven</groupId>
                <artifactId>sonar-maven-plugin</artifactId>
                <version>3.9.1.2184</version> <!-- This supports Java 11 -->
-          </plugin>
-       </plugins>
+            </plugin>
+        </plugins>
     </build>
-
-
-</project>
+ </project>
