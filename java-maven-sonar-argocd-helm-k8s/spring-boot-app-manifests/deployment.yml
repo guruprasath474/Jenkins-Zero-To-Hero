@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: abhishekf5/ultimate-cicd:replaceImageTag
+        image: maven:3.8.7-eclipse-temurin-17:replaceImageTag
         ports:
         - containerPort: 8080
